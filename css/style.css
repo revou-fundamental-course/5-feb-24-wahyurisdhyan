@@ -1,0 +1,57 @@
+#Navigation-Bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Logo{
+    height: min-content;
+    margin-top: 0;
+}
+
+#Navigation {
+    display: flex;
+}
+
+#Navigation>a {
+    text-decoration: none;
+    padding: 8px;
+}
+
+#Navigation:hover {
+    color: red;
+}
+
+/*Input Section*/
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 10px 10px;
+}
+
+.input-field:focus {
+    border: solid blue;
+}
+
+.my-button {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.my-button:hover {
+    background-color:rgb(1,93,93);
+}
+
+.my-button:active {
+    background-color:rgb(2, 60, 60);
+    transform: translateY(4px);
+}
