@@ -69,19 +69,3 @@ function btnClickReverse() {
 }
 btnClickReverse(true); // Kondisi X terjadi, maka fungsi baru dijalankan
 btnClickReverse(false); // Kondisi X tidak terjadi, maka fungsi lama dijalankan
-
-// Mendapatkan elemen subjudul dan paragraf
-var caraKonversi = document.getElementById("caraKonversi");
-var teksCaraKonversi = document.getElementById("teksCaraKonversi");
-
-// Menambahkan event listener ke subjudul
-caraKonversi.addEventListener("click", function() {
-    // Memeriksa apakah paragraf sedang tersembunyi
-    if (teksCaraKonversi.classList.contains("hidden")) {
-        // Jika tersembunyi, tampilkan paragraf
-        teksCaraKonversi.classList.remove("hidden");
-    } else {
-        // Jika sedang ditampilkan, sembunyikan paragraf
-        teksCaraKonversi.classList.add("hidden");
-    }
-});
